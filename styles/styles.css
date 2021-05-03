@@ -5,11 +5,11 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
 html {
     scroll-behavior: smooth;
 } 
 .max-width {
-    max-width: 1300px;
     padding: 0 80px;
     margin: auto;
 }
@@ -19,48 +19,55 @@ html {
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 30px 0;
+    padding: 15px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
-    background-color: darkgrey;
+    background-color: black;
 }
+
 .navbar.sticky {
     padding: 15px 0;
     background: #0B3C5D; 
 }
+
 .navbar .max-width {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .navbar .logo a {
     color: #fff;
     font-size: 35px;
     font-weight: 600;
 }
+
 .navbar .logo a span {
     color: #ff533d;
     transition: all 0.3s ease;
-
 }
+
 .navbar.sticky .logo a span {
     color: #fff;
 }
+
 .navbar .menu li {
     list-style: none;
     display: inline-block;
 }
+
 .navbar .menu li a {
-    color: rgb(12, 12, 12);
+    color: white;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
-
 }
+
 .navbar .menu li a:hover {
     color: #ff533d;
 }
+
 .navbar.sticky .menu li a:hover {
     color: #fff;
 }
