@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap%27');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+} 
+.max-width {
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* navbar styling */
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 15px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+    background-color: black;
+}
+
+.navbar.sticky {
+    padding: 15px 0;
+    background: #0B3C5D; 
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .logo a span {
+    color: #ff533d;
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky .logo a span {
+    color: #fff;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    color: #ff533d;
+}
+
+.navbar.sticky .menu li a:hover {
+    color: #fff;
+}
+
+/* menu btn styling */
+.menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
