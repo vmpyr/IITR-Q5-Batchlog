@@ -14,9 +14,6 @@
     justify-content: space-between;
     align-items: center;
     margin: 5px;
-    border: solid black 4px;
-    border-radius: 15px;
-    box-shadow: 1px 2px 5px 1px #ff533d;
 }
 
 .acad-title, .misc-title{
@@ -28,7 +25,8 @@
 }
 
 h2 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
     text-decoration: none;
     color: #ff533d;
     font-size: 2em;
@@ -50,12 +48,13 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    font-weight: bold;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 1px 1px 3px black;
     transition: all 0.3s ease;
-    width: 400px;
+    width: 500px;
 }
 
 button:hover {
@@ -64,12 +63,28 @@ button:hover {
 }
 
 .p-acad, .p-misc{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     text-decoration: none; 
     color: white;
 }
 p.turn-black {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     text-decoration: none; 
     color: black;
+}
+
+@media (max-width: 900px) {
+    .resources {
+        padding-top: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .acad, .misc{
+        width: 100%;
+        margin: 0;
+    }
 }
