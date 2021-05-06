@@ -13,13 +13,13 @@ $(document).ready(function(){
 	});
 
     $(".acad-button").hover(function(){
-        $(".p-acad").toggleClass("turn-black");
+        $(".p-acad").toggleClass("turn-white");
         $(".p-acad").text("Want to request an academic book?");
-        $(".turn-black").text("Then click here!!");
+        $(".turn-white").text("Then click here!!");
     });
     $(".misc-button").hover(function(){
-        $(".p-misc").toggleClass("turn-black");
+        $(".p-misc").toggleClass("turn-white");
         $(".p-misc").text("Want to request a miscellaneous book?");
-        $(".turn-black").text("Then click here!!");
+        $(".turn-white").text("Then click here!!");
     });
 });

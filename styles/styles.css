@@ -18,11 +18,11 @@ html {
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 20px 0;
+    padding: 12px 0;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     transition: all 0.3s ease;
-    background-color: black;
+    background-color: rgb(22, 42, 131);
 }
 
 .navbar.sticky {
@@ -44,7 +44,7 @@ html {
 }
 
 .navbar .logo a span {
-    color: #ff533d;
+    color: #db3c27;
     transition: all 0.3s ease;
 }
 
@@ -66,7 +66,7 @@ html {
 }
 
 .navbar .menu li a:hover {
-    color: #ff533d;
+    color: #db3c27;
 }
 
 .navbar.sticky .menu li a:hover {
